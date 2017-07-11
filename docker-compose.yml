@@ -2,6 +2,6 @@ version: '2.1'
 
 services:
   bowling:
-    build: ./src/
+    build: ./
     volumes:
-      - ./src:/home/app/src
+      - ./:/home/app/
